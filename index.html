@@ -2,5 +2,12 @@
 layout: default
 title: test title
 ---
-<h1>Hello XBB</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<h1>Hello XBB,</h1>
+<p>This is the index page</p>
+<p>My post list:</p>
+<ul>
+   {% for post in site.posts %}
+       <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+   {% endfor %}
+</ul>
+<p>I'm hosted with GitHub Pages!</p>
