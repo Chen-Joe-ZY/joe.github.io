@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Feb 2018 23:32:10 +0800</pubDate>
+    <lastBuildDate>Sun, 11 Feb 2018 23:32:10 +0800</lastBuildDate>
+    <generator>Jekyll v3.7.2</generator>
+    
+      <item>
+        <title>test</title>
+        <description>test</description>
+        <pubDate>Sun, 11 Feb 2018 23:04:18 +0800</pubDate>
+        <link>http://localhost:4000/2018/02/11/test/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/11/test/</guid>
+        
+        <category>test</category>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Test2</title>
+        <description>
+Test2
+</description>
+        <pubDate>Tue, 22 Nov 2016 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2016/11/22/js-create-file-and-download/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/11/22/js-create-file-and-download/</guid>
+        
+        <category>test</category>
+        
+        <category>post</category>
+        
+        
+        <category>test</category>
+        
+      </item>
+    
+  </channel>
+</rss>
