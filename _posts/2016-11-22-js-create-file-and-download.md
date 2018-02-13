@@ -10,3 +10,4 @@ author: Lirhea
 {:toc}
 
 Test2
+![](figure_1.png)
