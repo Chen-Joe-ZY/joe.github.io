@@ -11,4 +11,6 @@ mathjax: true
 ![9d283e059cbfeb3ad1b04ce11efbd068.jpg](https://www.z4a.net/images/2018/02/18/9d283e059cbfeb3ad1b04ce11efbd068.jpg)
 #Viewer links
 https://www.z4a.net/image/qozEK
+#Direct links
+https://www.z4a.net/images/2018/02/18/9d283e059cbfeb3ad1b04ce11efbd068.jpg
 test
