@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>test</title>
-    <meta name="description" content="##Markdown![9d283e059cbfeb3ad1b04ce11efbd068.jpg](https://www.z4a.net/images/2018/02/18/9d283e059cbfeb3ad1b04ce11efbd068.jpg)#Viewer linkshttps://www.z4a.net...">
+    <title>Q-Learning Testing with Maze Environment</title>
+    <meta name="description" content="* content{:toc}#AbstractReinforcement Learning is an attractive domain. And it got much development in recent years. Here, I would like to solve a maze envir...">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="/css/main.css ">
-    <link rel="canonical" href="http://localhost:4000/2018/02/11/test/">
+    <link rel="canonical" href="http://localhost:4000/2018/02/15/MazeEnv/">
     <link rel="alternate" type="application/rss+xml" title="L" href="http://localhost:4000/feed.xml ">
 
 
@@ -31,18 +31,6 @@
 
 
 
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    tex2jax: { inlineMath: [["$","$"],["\\(","\\)"]] },
-    "HTML-CSS": {
-      linebreaks: { automatic: true, width: "container" }
-    }
-});
-</script>
-<script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 </head>
 
@@ -99,11 +87,11 @@
 
         <div class="page clearfix" post>
     <div class="left">
-        <h1>test</h1>
+        <h1>Q-Learning Testing with Maze Environment</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2018-02-11
+                <i class="fa fa-calendar"></i>2018-02-15
             </div>
 
             <div class="label-card">
@@ -124,7 +112,7 @@
   <i class="fa fa-th-list"></i>
   
     
-        <a href="/category/#test" title="Category: test" rel="category">test</a>
+        <a href="/category/#Q-Learning" title="Category: Q-Learning" rel="category">Q-Learning</a>
     
   
 
@@ -141,8 +129,20 @@
   <i class="fa fa-tags"></i>
   
     
-        <!--a href="/tag/#test" title="Tag: test" rel="tag">test</a-->
-        <a href="/tag/#test" title="Tag: test" rel="tag">test</a>
+        <!--a href="/tag/#maze" title="Tag: maze" rel="tag">maze</a-->
+        <a href="/tag/#maze" title="Tag: maze" rel="tag">maze</a>&nbsp;
+    
+        <!--a href="/tag/#Q-Learning" title="Tag: Q-Learning" rel="tag">Q-Learning</a-->
+        <a href="/tag/#Q-Learning" title="Tag: Q-Learning" rel="tag">Q-Learning</a>&nbsp;
+    
+        <!--a href="/tag/#DQN" title="Tag: DQN" rel="tag">DQN</a-->
+        <a href="/tag/#DQN" title="Tag: DQN" rel="tag">DQN</a>&nbsp;
+    
+        <!--a href="/tag/#DDQN" title="Tag: DDQN" rel="tag">DDQN</a-->
+        <a href="/tag/#DDQN" title="Tag: DDQN" rel="tag">DDQN</a>&nbsp;
+    
+        <!--a href="/tag/#DuelingDQN" title="Tag: DuelingDQN" rel="tag">DuelingDQN</a-->
+        <a href="/tag/#DuelingDQN" title="Tag: DuelingDQN" rel="tag">DuelingDQN</a>
     
   
 
@@ -153,13 +153,25 @@
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        ##Markdown
-![9d283e059cbfeb3ad1b04ce11efbd068.jpg](https://www.z4a.net/images/2018/02/18/9d283e059cbfeb3ad1b04ce11efbd068.jpg)
-#Viewer links
-https://www.z4a.net/image/qozEK
-#Direct links
-https://www.z4a.net/images/2018/02/18/9d283e059cbfeb3ad1b04ce11efbd068.jpg
-test
+        * content
+{:toc}
+
+#Abstract
+Reinforcement Learning is an attractive domain. And it got much development in recent years. Here, I would like to solve a maze environment by tabular Q-learning, DQN, Double DQN, and Dueling DQN methods. Furthermore, there is also a comparison among them.
+
+# Maze Environment
+!()[oldmap.png]
+There is an maze environment, which is designed by @Morvan Zhou. However, it's only 4 girds * 4 girds. And it's too easy to find a way out. 
+
+I made some noticeable changes:
+* larger map, which is 20 grids * 20 grids.
+* more barriers.
+
+![](newmap.png)
+
+
+
+
         </article>
         <hr>
 
@@ -170,19 +182,11 @@ test
                 
                     
                 
-            
+                    
                 
                     
                 
-            
-                
                     
-                
-            
-                
-                    
-                
-            
                 
                     
                 
@@ -192,39 +196,39 @@ test
             
                 
                     
-                        
-                        <h2 id="similar_posts">Similar Posts</h2>
-                        <ul>
-                        
-                        <li class="relatedPost">
-                            <a href="/2016/11/22/js-create-file-and-download/">Test2
-                            
-                            </a>
-                        </li>
-                        
-                        
+                
+                    
+                
+                    
+                
+                    
+                
                     
                 
             
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             
         
-        
-            </ul>
         
 
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="/2016/11/22/js-create-file-and-download/">Test2</a></p>
+        <p><strong>上一篇</strong> <a href="/2018/02/11/test/">test</a></p>
         
     </div>
     <div class="nex">
 
-        
-        <p><strong>下一篇</strong> <a href="/2018/02/15/MazeEnv/">Q-Learning Testing with Maze Environment</a></p>
         
     </div>
 </div>
@@ -248,8 +252,6 @@ test
                     Content
                 </div>
                 <ul id="content-side" class="content-ul">
-                    
-                    <li><a href="#similar_posts">Similar Posts</a></li>
                     
                     <li><a href="#comments">Comments</a></li>
                 </ul>
