@@ -9,7 +9,7 @@
 title: L
 brief-intro: Student
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lirhea.github.io" # the base hostname & protocol for your site
+url: "https://joe.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
